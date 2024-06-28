@@ -119,10 +119,15 @@ function sendEmail() {
     const subject = 'Booking Request';
     const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPreferred Date: ${date}\nPreferred Time: ${time}`;
 
-    const mailtoLink = `sammymunene22@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:sammymunene22@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
+    // Open the mailto link
     window.location.href = mailtoLink;
 }
+// Ensure the DOM is fully loaded before attaching the event listener
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('sendEmailButton').addEventListener('click', sendEmail);
+});
 
 function makeCall() {
     const phone = "0728482115";
