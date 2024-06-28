@@ -125,7 +125,7 @@ function sendEmail() {
 }
 
 function makeCall() {
-    const phone = +254728482115;
+    const phone = "0728482115";
     window.location.href = `tel:${phone}`;
 }
 
