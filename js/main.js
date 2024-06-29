@@ -114,42 +114,18 @@ function sendEmail() {
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const date = document.getElementById('date').value;
-    const time = document.getElementById('time').value;
 
     const subject = 'Booking Request';
-    const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPreferred Date: ${date}\nPreferred Time: ${time}`;
+    const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPreferred Date: ${date}`;
 
     const mailtoLink = `mailto:sammymunene22@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-    // Open the mailto link
     window.location.href = mailtoLink;
 }
-// Ensure the DOM is fully loaded before attaching the event listener
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('sendEmailButton').addEventListener('click', sendEmail);
-});
 
 function makeCall() {
     const phone = "0728482115";
     window.location.href = `tel:${phone}`;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const tabLinks = document.querySelectorAll('[data-bs-toggle="pill"]');
-    const allItems = document.querySelectorAll('.event-item');
 
-    tabLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            const targetTab = this.getAttribute('href').substring(1);
-            const filterCategory = this.textContent.trim();
-
-            allItems.forEach(item => {
-                item.style.display = 'none';
-
-                if (filterCategory === 'All Events' || item.getAttribute('data-category') === filterCategory) {
-                    item.style.display = 'block';
-                }
-            });
-        });
-    });
-});
