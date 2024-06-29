@@ -1,4 +1,7 @@
-
+.blurred {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+}
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
