@@ -118,7 +118,7 @@ function sendEmail() {
     const subject = 'Booking Request';
     const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nPreferred Date: ${date}`;
 
-    const mailtoLink = `mailto:sammymunene22@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:kendijoysolutionsltd@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoLink;
 }
