@@ -128,4 +128,8 @@ function makeCall() {
     window.location.href = `tel:${phone}`;
 }
 
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('.service-item'));
+tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+});
 
