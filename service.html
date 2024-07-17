@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Services - KendiJoy</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>Services - KendiJoy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-        <link rel="manifest" href="img/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap"
+        rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
-        </div>
-        <!-- Spinner End -->
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
 
 
     <!-- Navbar start -->
@@ -48,7 +50,8 @@
         <div class="container">
             <nav class="navbar navbar-light navbar-expand-lg py-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center">
-                    <img src="img/android-chrome-512x512.png" alt="Logo" class="rounded navbar-logo" style="height: 120px; width: 130px; margin-right: 10px;">
+                    <img src="img/android-chrome-512x512.png" alt="Logo" class="rounded navbar-logo"
+                        style="height: 120px; width: 130px; margin-right: 10px;">
                     <!-- <h1 class="text-primary fw-bold mb-0">Kendi<span class="text-dark">Joy</span></h1> -->
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
@@ -74,7 +77,8 @@
                     </div>
                     <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex"
                         data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                    <a href="book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                    <a href="book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book
+                        Now</a>
                 </div>
             </nav>
         </div>
@@ -82,581 +86,635 @@
     <!-- Navbar End -->
 
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control bg-transparent p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Modal Search End -->
-
-
-        <!-- Hero Start -->
-        <div class="container-fluid bg-light py-6 my-6 mt-0">
-            <div class="container text-center animated bounceInDown">
-                <h1 class="display-1 mb-4">Services</h1>
-                <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-dark" aria-current="page">Services</li>
-                </ol>
-            </div>
-        </div>
-        <!-- Hero End -->
-
-<!-- Service Start -->
-<div class="container-fluid service py-6">
-    <div class="container">
-        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Services</small>
-            <h1 class="display-5 mb-5">What We Offer</h1>
-        </div>
-        <div class="row g-4">
-
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal7">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-utensils fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Catering Services</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal7Label">Catering Services</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/catering-1.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-2.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-3.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-4.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-5.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-6.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-7.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-8.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-9.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-10.jpg" class="img-fluid mb-3" alt="Catering Services">
-                                <img src="img/catering-11.jpg" class="img-fluid mb-3" alt="Catering Services">
-
-                                <p>Allow our team to manage your corporate events. We specialize in organizing product launches, office parties, gala dinners, conferences, and staff lunches with expertise and finesse.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal1">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-certificate fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Wedding Services</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal1Label">Wedding Services</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/wedding_modal-1.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/wedding_modal-2.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/wedding_modal-3.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/wedding_modal-4.jpg" class="img-fluid mb-3" alt="Wedding Services">
-
-                                <p>Celebrate one of life's significant milestones with us, where we ensure the day is unforgettable for both you and your guests.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Repeat the structure for other service items -->
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal2">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-star fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Tents For Hire</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal2Label">Tents For Hire</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/tent-1.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/tent-2.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/tent-3.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/tent-4.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <img src="img/tent-5.jpg" class="img-fluid mb-3" alt="Wedding Services">
-                                <p>Transform your event with our exquisite tents for hire. Whether you're hosting an intimate gathering or a grand celebration, our elegantly dressed tents offer the perfect blend of comfort and style. Customize your setup to accommodate any number of guests, ensuring a memorable and picturesque atmosphere for your special occasion.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Repeat the structure for other service items -->
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal3">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-cheese fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Cake Baking Services</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal3Label">Cake Baking Services</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/cake-1.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
-                                <img src="img/cake-2.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
-                                <img src="img/cake-3.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
-                                <img src="img/cake-4.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
-                                <img src="img/cake-5.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
-                                <img src="img/cake-6.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
-                                <p>Our Pastry chef will be sure to deliver a perfect cake for your perfect theme.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Repeat the structure for other service items -->
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal4">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-bars fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Tables for Hire</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal4Label">Tables for Hire</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/table-1.jpg" class="img-fluid mb-3" alt="Tables for Hire">
-                                <img src="img/table-2.jpg" class="img-fluid mb-3" alt="Tables for Hire">
-                                <img src="img/table-3.jpg" class="img-fluid mb-3" alt="Tables for Hire">
-                                <img src="img/table-4.jpg" class="img-fluid mb-3" alt="Tables for Hire">
-                                <img src="img/table-5.jpg" class="img-fluid mb-3" alt="Tables for Hire">
-                                <img src="img/table-6.jpg" class="img-fluid mb-3" alt="Tables for Hire">
-                                <p>Add great taste and appearance to your event by getting our elegantly set up tables for any number of guests.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <!-- Repeat the structure for other service items -->
-             <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.7s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal5">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-chair fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Chairs for Hire</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal5Label">Chairs for Hire</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/table-1.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
-                                <img src="img/table-2.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
-                                <img src="img/table-3.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
-                                <img src="img/table-4.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
-                                <img src="img/table-6.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
-                                <img src="img/table-5.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
-                                <p>Choose from our stylish range of chairs to complement your event's theme and provide comfortable seating for your guests.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Repeat the structure for other service items -->
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal6">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-map-marker-alt fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Garden For Hire</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal6Label">Garden For Hire</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/garden-1.jpg" class="img-fluid mb-3" alt="Garden For Hire">
-                                <img src="img/garden-2.jpg" class="img-fluid mb-3" alt="Garden For Hire">
-                                <img src="img/garden-3.jpg" class="img-fluid mb-3" alt="Garden For Hire">
-                                <p>Our team provides the best serene gardens for your fabulous event.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-           
-
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal8">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-wine-glass-alt fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">Private Parties</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal8Label">Private Parties</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/private_party-1.jpg" class="img-fluid mb-3" alt="Private Parties">
-                                <img src="img/private_party-2.jpg" class="img-fluid mb-3" alt="Private Parties">
-                                <img src="img/private_party-3.jpg" class="img-fluid mb-3" alt="Private Parties">
-                                <p>Bring together your friends and family, rejoice, reflect on the past, and create new experiences. We offer a variety of choices and themes to guarantee a perfect evening for you.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
-                <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal9">
-                    <div class="service-content d-flex align-items-center justify-content-center p-4">
-                        <div class="service-content-icon text-center">
-                            <i class="fas fa-volume-up fa-7x text-primary mb-4"></i>
-                            <h4 class="mb-3">P.A Sound Systems</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="modal9Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modal9Label">P.A Sound Systems</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/sound-1.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
-                                <img src="img/sound-2.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
-                                <img src="img/sound-3.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
-                                <img src="img/sound-4.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
-                                <p>Our technical team will provide the best sound quality and provide support for the whole event, assuring you the best quality services you can access.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            
-
-
-
         </div>
     </div>
-</div>
-<!-- Service End -->
+    <!-- Modal Search End -->
 
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid py-6">
-            <div class="container">
-                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimonial</small>
-                    <h1 class="display-5 mb-5">What Our Customers says!</h1>
-                </div>
-                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
+    <!-- Hero Start -->
+    <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container text-center animated bounceInDown">
+            <h1 class="display-1 mb-4">Services</h1>
+            <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item text-dark" aria-current="page">Services</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid service py-6">
+        <div class="container">
+            <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                <small
+                    class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our
+                    Services</small>
+                <h1 class="display-5 mb-5">What We Offer</h1>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal7">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-utensils fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Catering Services</h4>
                             </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Johnson Mwakazi</h4>
-                                <p class="m-0">Doctor</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">Thank you so much kendijoy, the event was a success and the food was fabulous, echo!</p>
-                        </div> 
-                    </div>
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Mary Jane</h4>
-                                <p class="m-0">Accountant</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">I really recommend Kendi Joy catering setvices to other people who need exquisite delicacies and good planning.</p>
                         </div>
                     </div>
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
+                    <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal7Label">Catering Services</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/catering-1.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-2.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-3.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-4.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-5.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-6.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-7.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-8.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-9.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-10.jpg" class="img-fluid mb-3" alt="Catering Services">
+                                    <img src="img/catering-11.jpg" class="img-fluid mb-3" alt="Catering Services">
+
+                                    <p>Allow our team to manage your corporate events. We specialize in organizing
+                                        product launches, office parties, gala dinners, conferences, and staff lunches
+                                        with expertise and finesse.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Ruth Wamwere</h4>
-                                <p class="m-0">Project Manager</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">I never thought the event at my office would turn out that great, thank you so much kendijoy caterers.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Samuel Kinoti</h4>
-                                <p class="m-0">Driver</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">For over a year now kendijoy has delivered food in the office and it is simply the best, would not ask for anything better. Thank you so much.</p>
                         </div>
                     </div>
                 </div>
-                <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-certificate fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Wedding Services</h4>
                             </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Karl Johns</h4>
-                                <p class="m-0">Model</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">A friend referred me to you and I am very happy with your services. Thanks to you and to John for introducing me to you. You are forever goated. </p>
                         </div>
                     </div>
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal1Label">Wedding Services</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/wedding_modal-1.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/wedding_modal-2.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/wedding_modal-3.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/wedding_modal-4.jpg" class="img-fluid mb-3" alt="Wedding Services">
+
+                                    <p>Celebrate one of life's significant milestones with us, where we ensure the day
+                                        is unforgettable for both you and your guests.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Mary Jane</h4>
-                                <p class="m-0">Accountant</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">I really loved how your menu was packaged, the chefs did a good job. You really deserve a five star review.</p>
                         </div>
                     </div>
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
+                </div>
+                <!-- Repeat the structure for other service items -->
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-star fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Tents For Hire</h4>
                             </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">Mary Smith</h4>
-                                <p class="m-0">Designer</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                            </div>
-                            <p class="fs-5 m-0 pt-3">Thank you so much for being able to deliver all that food to the kids, even though it was on short notice you delivered, you are the best.</p>
                         </div>
                     </div>
-                    <div class="testimonial-item rounded bg-light">
-                        <div class="d-flex mb-3">
-                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
-                            <div class="position-absolute" style="top: 15px; right: 20px;">
-                                <i class="fa fa-quote-right fa-2x"></i>
-                            </div>
-                            <div class="ps-3 my-auto">
-                                <h4 class="mb-0">William Obegi</h4>
-                                <p class="m-0">Politician</p>
+                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal2Label">Tents For Hire</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/tent-1.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/tent-2.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/tent-3.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/tent-4.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <img src="img/tent-5.jpg" class="img-fluid mb-3" alt="Wedding Services">
+                                    <p>Transform your event with our exquisite tents for hire. Whether you're hosting an
+                                        intimate gathering or a grand celebration, our elegantly dressed tents offer the
+                                        perfect blend of comfort and style. Customize your setup to accommodate any
+                                        number of guests, ensuring a memorable and picturesque atmosphere for your
+                                        special occasion.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="testimonial-content">
-                            <div class="d-flex">
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
-                                <i class="fas fa-star text-primary"></i>
+                    </div>
+                </div>
+
+                <!-- Repeat the structure for other service items -->
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal3">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-cheese fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Cake Baking Services</h4>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Kendi Joy you are the best, my family was very happy today, I will share the photos with you.</p>
                         </div>
+                    </div>
+                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal3Label">Cake Baking Services</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/cake-1.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
+                                    <img src="img/cake-2.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
+                                    <img src="img/cake-3.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
+                                    <img src="img/cake-4.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
+                                    <img src="img/cake-5.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
+                                    <img src="img/cake-6.jpg" class="img-fluid mb-3" alt="Cake Baking Services">
+                                    <p>Our Pastry chef will be sure to deliver a perfect cake for your perfect theme.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the structure for other service items -->
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal4">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-bars fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Tables for Hire</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal4Label">Tables for Hire</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/table-1.jpg" class="img-fluid mb-3" alt="Tables for Hire">
+                                    <img src="img/table-2.jpg" class="img-fluid mb-3" alt="Tables for Hire">
+                                    <img src="img/table-3.jpg" class="img-fluid mb-3" alt="Tables for Hire">
+                                    <img src="img/table-4.jpg" class="img-fluid mb-3" alt="Tables for Hire">
+                                    <img src="img/table-5.jpg" class="img-fluid mb-3" alt="Tables for Hire">
+                                    <img src="img/table-6.jpg" class="img-fluid mb-3" alt="Tables for Hire">
+                                    <p>Add great taste and appearance to your event by getting our elegantly set up
+                                        tables for any number of guests.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the structure for other service items -->
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal5">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-chair fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Chairs for Hire</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal5Label">Chairs for Hire</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/table-1.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
+                                    <img src="img/table-2.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
+                                    <img src="img/table-3.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
+                                    <img src="img/table-4.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
+                                    <img src="img/table-6.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
+                                    <img src="img/table-5.jpg" class="img-fluid mb-3" alt="Chairs for Hire">
+                                    <p>Choose from our stylish range of chairs to complement your event's theme and
+                                        provide comfortable seating for your guests.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the structure for other service items -->
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal6">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-map-marker-alt fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Garden For Hire</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal6Label">Garden For Hire</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/garden-1.jpg" class="img-fluid mb-3" alt="Garden For Hire">
+                                    <img src="img/garden-2.jpg" class="img-fluid mb-3" alt="Garden For Hire">
+                                    <img src="img/garden-3.jpg" class="img-fluid mb-3" alt="Garden For Hire">
+                                    <p>Our team provides the best serene gardens for your fabulous event.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal8">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-wine-glass-alt fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">Private Parties</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal8Label">Private Parties</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/private_party-1.jpg" class="img-fluid mb-3" alt="Private Parties">
+                                    <img src="img/private_party-2.jpg" class="img-fluid mb-3" alt="Private Parties">
+                                    <img src="img/private_party-3.jpg" class="img-fluid mb-3" alt="Private Parties">
+                                    <p>Bring together your friends and family, rejoice, reflect on the past, and create
+                                        new experiences. We offer a variety of choices and themes to guarantee a perfect
+                                        evening for you.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="bg-light rounded service-item" data-bs-toggle="modal" data-bs-target="#modal9">
+                        <div class="service-content d-flex align-items-center justify-content-center p-4">
+                            <div class="service-content-icon text-center">
+                                <i class="fas fa-volume-up fa-7x text-primary mb-4"></i>
+                                <h4 class="mb-3">P.A Sound Systems</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="modal9Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modal9Label">P.A Sound Systems</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/sound-1.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
+                                    <img src="img/sound-2.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
+                                    <img src="img/sound-3.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
+                                    <img src="img/sound-4.jpg" class="img-fluid mb-3" alt="P.A. Sound Systems">
+                                    <p>Our technical team will provide the best sound quality and provide support for
+                                        the whole event, assuring you the best quality services you can access.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-6">
+        <div class="container">
+            <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                <small
+                    class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimonial</small>
+                <h1 class="display-5 mb-5">What Our Customers says!</h1>
+            </div>
+            <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp"
+                data-wow-delay="0.1s">
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Johnson Mwakazi</h4>
+                            <p class="m-0">Doctor</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">Thank you so much kendijoy, the event was a success and the food was
+                            fabulous, echo!</p>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Mary Jane</h4>
+                            <p class="m-0">Accountant</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">I really recommend Kendi Joy catering setvices to other people who need
+                            exquisite delicacies and good planning.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Ruth Wamwere</h4>
+                            <p class="m-0">Project Manager</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">I never thought the event at my office would turn out that great, thank
+                            you so much kendijoy caterers.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Samuel Kinoti</h4>
+                            <p class="m-0">Driver</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">For over a year now kendijoy has delivered food in the office and it is
+                            simply the best, would not ask for anything better. Thank you so much.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Karl Johns</h4>
+                            <p class="m-0">Model</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">A friend referred me to you and I am very happy with your services.
+                            Thanks to you and to John for introducing me to you. You are forever goated. </p>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Mary Jane</h4>
+                            <p class="m-0">Accountant</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">I really loved how your menu was packaged, the chefs did a good job.
+                            You really deserve a five star review.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">Mary Smith</h4>
+                            <p class="m-0">Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">Thank you so much for being able to deliver all that food to the kids,
+                            even though it was on short notice you delivered, you are the best.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item rounded bg-light">
+                    <div class="d-flex mb-3">
+                        <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                        <div class="position-absolute" style="top: 15px; right: 20px;">
+                            <i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="ps-3 my-auto">
+                            <h4 class="mb-0">William Obegi</h4>
+                            <p class="m-0">Politician</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="d-flex">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                        </div>
+                        <p class="fs-5 m-0 pt-3">Kendi Joy you are the best, my family was very happy today, I will
+                            share the photos with you.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+    </div>
+    <!-- Testimonial End -->
 
 
-       
 
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h1 class="text-primary">Kendi<span class="text-dark">Joy</span></h1>
-                            <p class="lh-lg mb-4">We Are Second To None.</p>
-                            <div class="footer-icon d-flex">
-                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" target="_blank" href="https://www.facebook.com/profile.php?id=100035437916000&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
-                                <!-- <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a href="https://instagram.com/kendijoy_cateringservices" target="_blank" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.tiktok.com/@kendijoy.catering?_t=8nY5RVBkW7p&_r=1" target="_blank" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-tiktok"></i></a>
-                            </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h1 class="text-primary">Kendi<span class="text-dark">Joy</span></h1>
+                        <p class="lh-lg mb-4">We Are Second To None.</p>
+                        <div class="footer-icon d-flex">
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=100035437916000&mibextid=ZbWKwL"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <!-- <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://instagram.com/kendijoy_cateringservices" target="_blank"
+                                class="btn btn-primary btn-sm-square me-2 rounded-circle"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@kendijoy.catering?_t=8nY5RVBkW7p&_r=1" target="_blank"
+                                class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-tiktok"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="mb-4">Special Facilities</h4>
-                            <div class="d-flex flex-column align-items-start">
-                                <a class="text-body mb-3" href="service.html"><i class="fa fa-check text-primary me-2"></i>Cake Baking.</a>
-                                <a class="text-body mb-3" href="service.html"><i class="fa fa-check text-primary me-2"></i>Dressed Tables and Chairs.</a>
-                                <a class="text-body mb-3" href="service.html"><i class="fa fa-check text-primary me-2"></i>P.A Sound Systems.</a>
-                                <a class="text-body mb-3" href="service.html"><i class="fa fa-check text-primary me-2"></i>Garden for Hire.</a>
-                                <a class="text-body mb-3" href="service.html"><i class="fa fa-check text-primary me-2"></i>Tents for Hire.</a>
-                            </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Special Facilities</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="text-body mb-3" href="service.html"><i
+                                    class="fa fa-check text-primary me-2"></i>Cake Baking.</a>
+                            <a class="text-body mb-3" href="service.html"><i
+                                    class="fa fa-check text-primary me-2"></i>Dressed Tables and Chairs.</a>
+                            <a class="text-body mb-3" href="service.html"><i
+                                    class="fa fa-check text-primary me-2"></i>P.A Sound Systems.</a>
+                            <a class="text-body mb-3" href="service.html"><i
+                                    class="fa fa-check text-primary me-2"></i>Garden for Hire.</a>
+                            <a class="text-body mb-3" href="service.html"><i
+                                    class="fa fa-check text-primary me-2"></i>Tents for Hire.</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <a href="book.html">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <a href="book.html">
                             <h4 class="mb-4">Contact Us</h4>
                             <div class="d-flex flex-column align-items-start">
                                 <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Meru, Kenya</p>
@@ -665,66 +723,74 @@
                                 <p><i class="fas fa-envelope text-primary me-2"></i> Kendijoysolutionsltd@gmail.com</p>
                                 <p><i class="fa fa-clock text-primary me-2"></i> 24/7 Hours Service</p>
                             </div>
-                            </a>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <a href="event.html">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <a href="event.html">
                             <h4 class="mb-4">Social Gallery</h4>
                             <div class="row g-2">
                                 <div class="col-4">
-                                     <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                    <img src="img/menu-01.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                    <img src="img/menu-02.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                    <img src="img/menu-03.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                    <img src="img/menu-04.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                    <img src="img/menu-05.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                                 <div class="col-4">
-                                     <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                    <img src="img/menu-06.jpg"
+                                        class="img-fluid rounded-circle border border-primary p-2" alt="">
                                 </div>
                             </div>
-                            </a>
-                        </div>
+                        </a>
                     </div>
-                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light"><a href="#"><i
+                                class="fas fa-copyright text-light me-2"></i>kendijoysolutions.co.ke</a>, All right
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 my-auto text-center d-none text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </div>
+    <!-- Copyright End -->
 
 
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright bg-dark py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>kendijoycatering.com</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 my-auto text-center d-none text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -737,6 +803,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>
